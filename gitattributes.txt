@@ -1,0 +1,53 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# UE File Types
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+# Raw Content Types
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.3ds filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.xcf filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+
+
+Plugins/Wwise/ThirdParty/iOS/Debug-iphoneos/lib/libAkMusicEngine.a filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Debug-iphoneos/lib/libAkSoundEngine.a filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Debug-iphoneos/lib/libGMESDK.a filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Debug-iphoneos/lib/libResonanceAudioFX.a filter=lfs diff=lfs merge=lfs -text
+
+Plugins/Wwise/ThirdParty/iOS/Debug-iphonesimulator/lib/libAkSoundEngine.a filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Debug-iphonesimulator/lib/libGMESDK.a filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Debug-iphonesimulator/lib/libResonanceAudioFX.a filter=lfs diff=lfs merge=lfs -text
+
+Plugins/Wwise/ThirdParty/iOS/Profile-iphoneos/lib/libAkMusicEngine.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Profile-iphoneos/lib/libAkSoundEngine.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Profile-iphoneos/lib/libGMESDK.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Profile-iphoneos/lib/libResonanceAudioFX.a  filter=lfs diff=lfs merge=lfs -text
+
+Plugins/Wwise/ThirdParty/iOS/Profile-iphoneos/lib/libAkSoundEngine.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Profile-iphoneos/lib/libGMESDK.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Profile-iphoneos/lib/libResonanceAudioFX.a  filter=lfs diff=lfs merge=lfs -text
+
+Plugins/Wwise/ThirdParty/iOS/Release-iphoneos/lib/libAkSoundEngine.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Release-iphoneos/lib/libGMESDK.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Release-iphoneos/lib/libResonanceAudioFX.a  filter=lfs diff=lfs merge=lfs -text
+
+Plugins/Wwise/ThirdParty/iOS/Release-iphonesimulator/lib/libAkSoundEngine.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Release-iphonesimulator/lib/libGMESDK.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Release-iphonesimulator/lib/libResonanceAudioFX.a  filter=lfs diff=lfs merge=lfs -text
+
+Plugins/Wwise/ThirdParty/iOS/Profile-iphonesimulator/lib/libAkSoundEngine.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Profile-iphonesimulator/lib/libGMESDK.a  filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/iOS/Profile-iphonesimulator/lib/libResonanceAudioFX.a  filter=lfs diff=lfs merge=lfs -text
+
+Plugins/Wwise/ThirdParty/Mac/Debug/lib/libAkSoundEngine.a filter=lfs diff=lfs merge=lfs -text
+Plugins/Wwise/ThirdParty/Mac/Debug/lib/libResonanceAudioFX.a filter=lfs diff=lfs merge=lfs -text
+
+Plugins/Wwise/ThirdParty/Mac/Profile/lib/libAkSoundEngine.a filter=lfs diff=lfs merge=lfs -text
+
+Plugins/Wwise/ThirdParty/Mac/Release/lib/libAkSoundEngine.a filter=lfs diff=lfs merge=lfs -text
+
