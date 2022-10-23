@@ -83,6 +83,7 @@ public class RLPlugin : ModuleRules
             {
                 "PhysicsCore",
                 "PhysicsUtilities",
+                "ChaosCloth"
             } );
         }
         DynamicallyLoadedModuleNames.AddRange(
